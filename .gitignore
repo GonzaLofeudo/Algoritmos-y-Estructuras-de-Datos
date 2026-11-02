@@ -1,0 +1,38 @@
+# Compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Salidas de compilacion
+bin/
+build/
+out/
+target/
+
+# Material local no publicado
+/practica-4/
+**/material/*.pdf
+
+# Configuracion personal de Eclipse (se conservan .project, .classpath y .settings)
+.metadata/
+*.launch
+.externalToolBuilders/
+.recommenders/
+
+# Otros IDE y editores
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporales, logs y caches
+*.log
+*.tmp
+*.temp
+.cache/
+.DS_Store
+Thumbs.db
+
